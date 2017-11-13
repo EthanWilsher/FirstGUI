@@ -6,6 +6,7 @@ import javax.swing.JFrame;
 public class GUIFrame extends JFrame
 {
 	private GUIAppController appController;
+	private GUIPanel firstPanel;
 	
 	public GUIFrame(GUIAppController appController)
 	{
@@ -17,6 +18,7 @@ public class GUIFrame extends JFrame
 	
 	private void setupFrame()
 	{
+		this.setContentPane(firstPanel);
 		this.setTitle("The window title");
 		this.setSize(500, 500);
 		this.setVisible(true);
