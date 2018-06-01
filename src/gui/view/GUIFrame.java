@@ -14,6 +14,7 @@ public class GUIFrame extends JFrame
 		this.appController = appController;
 		this.firstPanel = new GUIPanel(appController);
 		setupFrame();
+		//Calls on setup frame to get instructions.
 	}
 	
 	private void setupFrame()

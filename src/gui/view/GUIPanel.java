@@ -36,6 +36,7 @@ public class GUIPanel extends JPanel
 		this.setBackground(Color.CYAN);
 		this.setLayout(baseLayout);
 		this.add(firstButton);
+		// In java to set a background color you only need setBackground.
 	}
 
 	/**
